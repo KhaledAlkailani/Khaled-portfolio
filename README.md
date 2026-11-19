@@ -117,6 +117,27 @@ The project defines scanning cadence, remediation ownership, severity-based dead
 
 **Project:** [Open the repository →](https://github.com/KhaledAlkailani/vulnerability-management-procedure)
 
+---
+
+## [OverTheWire Bandit — Linux Security Journey](https://github.com/KhaledAlkailani/bandit-linux-security-journey)
+
+**Linux · Networking · Privilege · Automation · Git Security**
+
+A spoiler-safe documentation project built from completing the OverTheWire Bandit progression through Level 33.
+
+Instead of publishing passwords or challenge answers, the repository reorganizes the work into practical security capabilities: Linux fundamentals, data analysis, networking, privilege boundaries, cron and automation, restricted environments, and Git history.
+
+**Signals in the work**
+- Practical Linux command-line fluency
+- SSH, local services, TLS, and service discovery
+- SUID and execution-context reasoning
+- Cron and scheduled-task analysis
+- Restricted-shell and forced-program behavior
+- Git history, branches, tags, and hooks
+- Learning documentation that separates concepts from answers
+
+**Project:** [Open the repository →](https://github.com/KhaledAlkailani/bandit-linux-security-journey)
+
 # Working Method
 
 <div align="center">
