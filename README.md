@@ -97,6 +97,26 @@ The analysis correlates web, host, and filesystem evidence, then goes deeper int
 
 ---
 
+---
+
+## [Vulnerability Management Procedure](https://github.com/KhaledAlkailani/vulnerability-management-procedure)
+
+**GRC · Vulnerability Management · Risk Treatment · ISO/IEC 27001:2022**
+
+A practical governance procedure for managing technical vulnerabilities from identification through verified closure.
+
+The project defines scanning cadence, remediation ownership, severity-based deadlines, risk exceptions, technical verification, and management reporting. It also includes operational templates for a vulnerability register and risk-exception requests.
+
+**Signals in the work**
+- Vulnerability-management lifecycle design
+- Remediation SLAs and escalation logic
+- RACI-style ownership model
+- Risk-exception governance
+- Verification-before-closure principle
+- ISO/IEC 27001:2022 Annex A 8.8 mapping
+
+**Project:** [Open the repository →](https://github.com/KhaledAlkailani/vulnerability-management-procedure)
+
 # Working Method
 
 <div align="center">
