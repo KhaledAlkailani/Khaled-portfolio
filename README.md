@@ -38,6 +38,16 @@ The offensive phase established how the weaknesses could be reached and chained.
 
 Each finding was traced to a root cause, remediated, and retested against the original behavior.
 
+<div align="center">
+
+<img src="assets/WhatsApp%20Image%20main.jpeg" alt="Khaled AlKailani presenting the Attack to Validation cybersecurity capstone" width="92%">
+
+<br>
+
+<sub>Presenting the two-server assessment and walking through the attack paths during the capstone discussion before the National Cyber Security Center panel.</sub>
+
+</div>
+
 ### What can be inspected
 
 | Evidence | What it demonstrates |
