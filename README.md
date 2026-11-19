@@ -200,21 +200,31 @@ These distinctions look small, but they are where weak technical conclusions oft
 
 # Training & Practical Experience
 
-## Nashama Cyber 12
+## Nashama Cyber 12 — Cybersecurity Practical Training
 
-**440 hours of practical cybersecurity training** through Jordan's National Cyber Security Center.
+**440 hours · National Cyber Security Center (NCSC) · Amman**
 
-The training covered work across:
+An intensive hands-on cybersecurity program built around realistic security scenarios, technical labs, and investigation-driven work.
 
-`Security Operations` ·
-`Networking` ·
-`Linux & Windows` ·
-`Incident Response` ·
-`Log Analysis` ·
-`Packet Analysis` ·
-`Vulnerability Assessment` ·
-`Web Security` ·
-`Security Hardening`
+### Security Operations & Incident Investigation
+
+- Investigated security events, system activity, logs, and network traffic to identify suspicious behavior and reconstruct attack activity.
+- Practiced SOC-style monitoring and log analysis using **Splunk** and SIEM concepts.
+- Worked through scenarios covering **detection, investigation, containment, remediation, and validation**.
+- Applied **MITRE ATT&CK** and **NIST** guidance to structure investigations and document attacker behavior.
+
+### Network, Systems & Security Testing
+
+- Worked across **Windows and Linux** environments at the network, host, and application levels.
+- Performed reconnaissance, enumeration, network analysis, and controlled security testing using **Nmap, Wireshark, Burp Suite, and Splunk**.
+- Practiced troubleshooting and analysis across **TCP/IP, DNS, HTTP, LAN/WAN, access management, system monitoring, and security controls**.
+- Built practical experience in vulnerability assessment, web application security, network security, and remediation verification.
+
+### Documentation & Security Frameworks
+
+- Produced technical reports covering observed activity, supporting evidence, findings, impact, and recommended remediation.
+- Used frameworks and methodologies including **MITRE ATT&CK, NIST, and ISO 27001** during practical exercises.
+- Developed the habit of separating **finding, evidence, root cause, remediation, and validation** rather than treating them as the same thing.
 
 ---
 
