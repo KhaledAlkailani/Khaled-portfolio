@@ -206,6 +206,22 @@ These distinctions look small, but they are where weak technical conclusions oft
 
 An intensive hands-on cybersecurity program built around realistic security scenarios, technical labs, and investigation-driven work.
 
+<div align="center">
+
+<p>
+  <img src="assets/WhatsApp%20Image%202026-11-19%20at%208.40.42%20PM%20%281%29.jpeg" alt="Nashama Cyber 12 practical training" width="48%">
+  <img src="assets/WhatsApp%20Image%202026-11-19%20at%208.40.42%20PM.jpeg" alt="Nashama Cyber 12 practical training" width="48%">
+</p>
+
+<p>
+  <img src="assets/WhatsApp%20Image%202026-11-19%20at%208.40.43%20PM%20%281%29.jpeg" alt="Nashama Cyber 12 practical training" width="48%">
+  <img src="assets/WhatsApp%20Image%202026-11-19%20at%208.40.43%20PM.jpeg" alt="Nashama Cyber 12 practical training" width="48%">
+</p>
+
+<sub>Snapshots from the hands-on training environment during Nashama Cyber 12.</sub>
+
+</div>
+
 ### Security Operations & Incident Investigation
 
 - Investigated security events, system activity, logs, and network traffic to identify suspicious behavior and reconstruct attack activity.
