@@ -1,4 +1,0 @@
-# Synthetic indicators using documentation IP ranges
-ip:203.0.113.50
-cidr:198.51.100.0/24
-domain:bad.example
