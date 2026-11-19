@@ -1,0 +1,23 @@
+name: Python checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile
+        run: python -m compileall -q tools tests
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: CLI smoke tests
+        run: |
+          python tools/authtrail.py examples/auth.log --year 2026
+          python tools/headerguard.py --headers-file examples/response-headers.txt --https
+          python tools/iocsweep.py examples/events.csv examples/indicators.txt

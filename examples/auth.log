@@ -1,0 +1,7 @@
+Nov 19 09:00:10 server sshd[100]: Failed password for admin from 203.0.113.20 port 53001 ssh2
+Nov 19 09:00:35 server sshd[101]: Failed password for admin from 203.0.113.20 port 53002 ssh2
+Nov 19 09:01:01 server sshd[102]: Failed password for admin from 203.0.113.20 port 53003 ssh2
+Nov 19 09:01:22 server sshd[103]: Failed password for admin from 203.0.113.20 port 53004 ssh2
+Nov 19 09:01:49 server sshd[104]: Failed password for admin from 203.0.113.20 port 53005 ssh2
+Nov 19 09:02:11 server sshd[105]: Accepted password for admin from 203.0.113.20 port 53006 ssh2
+Nov 19 09:03:00 server sshd[106]: Accepted publickey for analyst from 192.0.2.10 port 54000 ssh2
