@@ -1,73 +1,238 @@
-# Khaled AlKailani
+<div align="center">
 
-**Cybersecurity · Security operations, engineering & testing**  
-Based in Jordan
+<img src="assets/portfolio-banner.svg" alt="Khaled AlKailani cybersecurity portfolio" width="100%">
 
-I'm a cybersecurity graduate with 440 hours of practical training through **Nashama Cyber 12**, delivered through Jordan's National Cyber Security Center.
+</div>
 
-The work I enjoy most is connecting the technical details: how an attack path developed, what the logs and system artifacts can actually prove, and whether a defensive change held up when tested again.
+---
 
-This repository is an index of my security investigations and a home for a few small Python tools. The projects are intentionally documented with their evidence, limitations, and reproducible steps.
+## If you only have 60 seconds
 
-## Selected work
+I am a cybersecurity graduate based in Jordan with **440 hours of practical training through Nashama Cyber 12**, delivered through Jordan's National Cyber Security Center.
 
-### [Two-server assessment — from attack path to validated remediation](https://github.com/KhaledAlkailani/cybersecurity-capstone-attack-to-validation)
-**Security assessment · incident reconstruction · Linux · remediation**
+The work I want to be judged on is not a list of tools.
 
-Assessed two servers running web applications and file-sharing services. Documented eight findings across two attack paths, reconstructed activity using logs and packet evidence, and recorded the remediation and retesting process.
+It is whether I can take a security problem from **initial observation to evidence, root cause, remediation, and validation**.
 
-**What to look at:** attack paths, root-cause analysis, and the before/after validation results.
+That is the pattern behind the projects below.
 
-### [TwoMillion — security assessment](https://github.com/KhaledAlkailani/TwoMillion-Security-Assessment)
-**Web/API testing · broken access control · command injection · Linux**
+<div align="center">
 
-An authorized Hack The Box assessment showing how individual weaknesses combined into a full compromise. The write-up focuses on the authorization failure, command-execution root cause, impact, and practical remediation.
+<img src="assets/proof-of-work.svg" alt="Khaled AlKailani proof of work" width="100%">
 
-**What to look at:** the sequence of findings and why each weakness mattered to the next step.
+</div>
 
-### [JobApplicant — Windows forensic investigation](https://github.com/KhaledAlkailani/J0bApplic-nt)
-**DFIR · IIS/Windows logs · NTFS · Python**
+---
 
-An investigation into suspicious activity in a Windows environment. Correlated web, event-log, and filesystem artifacts; explored NTFS MFT record fixup and attribute parsing to work with evidence that was no longer available as a normal file.
+## Why hire me?
 
-**What to look at:** evidence correlation and the filesystem analysis approach. The public write-up does not publish challenge answers.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-## Small tools
+### 01 · Investigation mindset
 
-These are deliberately narrow utilities rather than attempts to recreate a SIEM or vulnerability scanner. Each accepts local sample data, produces structured output, and has unit tests.
+I like answering the question behind the alert:
 
-| Tool | What it does | Read more |
-| --- | --- | --- |
-| **AuthTrail** | Flags bursts of failed SSH logins and correlates a later success from the same IP and username. | [Notes](docs/authtrail.md) · [Code](tools/authtrail.py) |
-| **HeaderGuard** | Reviews common HTTP response security headers, with an offline mode and an optional single HEAD request. | [Notes](docs/headerguard.md) · [Code](tools/headerguard.py) |
-| **IOCSweep** | Matches IP addresses, CIDR ranges and domains against a local CSV event export, retaining source row references. | [Notes](docs/iocsweep.md) · [Code](tools/iocsweep.py) |
+**What actually happened?**
 
-### Try them
+I work across logs, network traffic, application behavior, filesystem artifacts, and configuration evidence rather than relying on a single signal.
 
-Python 3.10+; no external packages required.
+</td>
+<td width="33%" valign="top">
 
-```bash
-git clone https://github.com/KhaledAlkailani/Khaled-portfolio.git
-cd Khaled-portfolio
+### 02 · I understand both sides
 
-python tools/authtrail.py examples/auth.log --year 2026
-python tools/headerguard.py --headers-file examples/response-headers.txt --https
-python tools/iocsweep.py examples/events.csv examples/indicators.txt
+I have worked through offensive attack paths and then investigated the same activity from the defender's side.
 
-python -m unittest discover -s tests -v
+That helps me think beyond *"there is a vulnerability"* and ask how it can be reached, detected, fixed, and verified.
+
+</td>
+<td width="33%" valign="top">
+
+### 03 · I validate the fix
+
+A remediation is not complete to me because a setting changed or a patch installed.
+
+I prefer to repeat the original behavior and show that the previous security impact can no longer be reproduced.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<img src="assets/how-i-work.svg" alt="Khaled AlKailani security workflow" width="100%">
+
+</div>
+
+---
+
+# Selected Work
+
+These are the projects I would want a technical interviewer or hiring manager to open first.
+
+## 01 · [Attack to Validation](https://github.com/KhaledAlkailani/cybersecurity-capstone-attack-to-validation)
+
+**Offensive Security · DFIR · Incident Reconstruction · Linux · Remediation Validation**
+
+> **2 servers · 8 findings · 2 attack paths · 8 validated remediations**
+
+A full security assessment across two Linux servers.
+
+The project started with offensive testing, but the stronger part came afterward: reconstructing the activity from service logs, Apache logs, packet evidence, application artifacts, source code, and filesystem evidence.
+
+The findings were traced to their root causes, remediated, and the original attack behavior was repeated to verify the fixes.
+
+**Why it matters**
+
+- Shows how separate weaknesses can connect into complete attack paths.
+- Demonstrates evidence correlation instead of relying only on a pentest report.
+- Includes root-cause analysis, MITRE ATT&CK/D3FEND mapping, remediation, and validation.
+- Documents limitations clearly — including the difference between container root and host root, and authentication versus authorization.
+
+**Start here:** [Project README](https://github.com/KhaledAlkailani/cybersecurity-capstone-attack-to-validation) · [Attack Paths](https://github.com/KhaledAlkailani/cybersecurity-capstone-attack-to-validation/blob/main/docs/attack-paths.md) · [Validation](https://github.com/KhaledAlkailani/cybersecurity-capstone-attack-to-validation/blob/main/docs/remediation-and-validation.md)
+
+---
+
+## 02 · [TwoMillion Security Assessment](https://github.com/KhaledAlkailani/TwoMillion-Security-Assessment)
+
+**Web & API Security · Access Control · Command Injection · Linux**
+
+An authorized Hack The Box assessment documenting how multiple application and system weaknesses combined into a larger compromise path.
+
+The write-up focuses on more than exploitation: it explains **why each weakness mattered to the next step**, what the underlying security failure was, and how the issue should be remediated.
+
+**What this demonstrates**
+
+- Web and API security testing
+- Authorization analysis
+- Attack-path thinking
+- Technical finding documentation
+- Practical remediation reasoning
+
+---
+
+## 03 · [JobApplicant — Windows Forensic Investigation](https://github.com/KhaledAlkailani/J0bApplic-nt)
+
+**DFIR · Windows / IIS Evidence · NTFS · Filesystem Analysis · Python**
+
+A forensic investigation into suspicious activity in a Windows environment.
+
+The investigation correlates web, Windows, and filesystem artifacts and goes deeper into NTFS structures when evidence is no longer available as a normal file.
+
+The public write-up focuses on the investigative process rather than publishing challenge answers.
+
+**What this demonstrates**
+
+- Evidence correlation
+- Windows forensic reasoning
+- IIS and host-log analysis
+- NTFS / MFT investigation
+- Working from artifacts when the obvious evidence is gone
+
+---
+
+# What I Bring
+
+I am building toward roles where security work requires both technical depth and clear judgment.
+
+| Area | What I can demonstrate |
+|---|---|
+| **Security Operations** | Log analysis, event correlation, investigation thinking, separating an alert from actual evidence |
+| **DFIR / Incident Investigation** | Timelines, artifacts, packet evidence, filesystem evidence, source correlation |
+| **Security Engineering** | Hardening, remediation reasoning, access control, credential handling, validation |
+| **Offensive Security** | Enumeration, web/API testing, attack-path development, controlled exploitation |
+| **Application Security** | XSS, authorization failures, unsafe input handling, credential and configuration exposure |
+| **Communication** | Findings, root causes, limitations, remediation steps, and evidence written so another person can verify the claim |
+
+---
+
+# How I Think About Security
+
+A few principles show up repeatedly in my work:
+
+```text
+An open port is attack surface — not automatically a vulnerability.
+
+A finding tells me there is a problem.
+Evidence tells me what actually happened.
+
+Authentication answers who you are.
+Authorization answers what you are allowed to do.
+
+HTTP 200 does not automatically mean exploit success.
+
+Root inside a container does not automatically mean root on the host.
+
+Removing an exposed credential is not enough.
+The credential must also be rotated.
+
+A patch is not proof.
+Retesting is proof.
 ```
 
-For example, AuthTrail's synthetic SSH log produces **two leads**: a burst of five failed logins and a successful login afterward. The JSON output includes the source line numbers so each observation can be checked against the input.
+Those distinctions matter because good security work depends on making claims the evidence can actually support.
 
-See the [technical limitations](docs/limitations.md) before using results for any real-world security decision.
+---
 
-## Practice platforms
+# Practice & Continuous Learning
 
-- [TryHackMe — VAnTAB](https://tryhackme.com/p/VAnTAB)
-- **Hack The Box:** [TwoMillion assessment](https://github.com/KhaledAlkailani/TwoMillion-Security-Assessment) · [JobApplicant investigation](https://github.com/KhaledAlkailani/J0bApplic-nt)
+**TryHackMe:** [VAnTAB](https://tryhackme.com/p/VAnTAB)
 
-## Scope
+**Hack The Box work:**
+[TwoMillion Security Assessment](https://github.com/KhaledAlkailani/TwoMillion-Security-Assessment) ·
+[JobApplicant Investigation](https://github.com/KhaledAlkailani/J0bApplic-nt)
 
-The assessments above were conducted in authorized environments. The bundled inputs are synthetic and use documentation IP ranges. Tool findings are **investigative leads**, not proof of compromise or a production security assessment.
+My focus is to keep turning study into work that can be inspected: investigations, write-ups, security tooling, and reproducible technical projects.
 
-The code, tests, sample inputs, and notes are public so the claims here can be checked rather than taken on trust.
+---
+
+# Training
+
+### Nashama Cyber 12
+
+**440 hours of practical cybersecurity training** through Jordan's National Cyber Security Center.
+
+Areas I have worked across include:
+
+`Security Operations` ·
+`Networking` ·
+`Linux & Windows` ·
+`Incident Response` ·
+`Log Analysis` ·
+`Packet Analysis` ·
+`Vulnerability Assessment` ·
+`Web Security` ·
+`Security Hardening`
+
+---
+
+# What I Am Looking For
+
+I am interested in opportunities where I can keep developing through real operational security work, particularly:
+
+- SOC / Security Operations
+- Cybersecurity Engineering
+- Incident Response / DFIR
+- Security Assessment and Vulnerability Management
+
+I am comfortable being the person who has to dig into the details, document what the evidence supports, and keep going until the technical story makes sense.
+
+---
+
+<div align="center">
+
+### Khaled AlKailani
+
+**Cybersecurity · Security Operations · DFIR · Security Engineering**
+
+Jordan
+
+[GitHub](https://github.com/KhaledAlkailani) · [TryHackMe](https://tryhackme.com/p/VAnTAB)
+
+<br>
+
+<sub>All assessments and security testing referenced here were performed in authorized environments.</sub>
+
+</div>
