@@ -44,7 +44,7 @@ Each finding was traced to a root cause, remediated, and retested against the or
 
 <br>
 
-<sub>Presenting the two-server assessment and walking through the attack paths during the capstone discussion before the National Cyber Security Center panel.</sub>
+<sub>During the capstone discussion, presenting the two-server assessment and explaining the attack paths before the National Cyber Security Center panel.</sub>
 
 </div>
 
