@@ -2,8 +2,8 @@
   <rect width="1600" height="430" fill="#131313"/>
   <rect x="18" y="18" width="1564" height="394" rx="34" fill="none" stroke="#EFEFEF" stroke-width="1.2"/>
 
-  <text x="80" y="86" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="26" font-weight="700" fill="#FFC000">proof_of_work</text>
-  <text x="80" y="125" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="18" fill="#8C8C8C">A few numbers behind the work — not a list of tool logos.</text>
+  <text x="80" y="86" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="26" font-weight="700" fill="#FFC000">evidence_at_a_glance</text>
+  <text x="80" y="125" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="18" fill="#8C8C8C">Concrete signals from the work documented in this portfolio.</text>
 
   <g font-family="'Cascadia Mono', Consolas, 'Courier New', monospace">
     <rect x="80" y="170" width="330" height="165" rx="18" fill="none" stroke="#EFEFEF"/>
@@ -14,16 +14,16 @@
     <rect x="455" y="170" width="330" height="165" rx="18" fill="none" stroke="#EFEFEF"/>
     <text x="485" y="215" font-size="42" font-weight="700" fill="#FFC000">8/8</text>
     <text x="485" y="257" font-size="19" font-weight="700" fill="#EFEFEF">Validated Fixes</text>
-    <text x="485" y="293" font-size="16" fill="#8C8C8C">Attack → fix → retest</text>
+    <text x="485" y="293" font-size="16" fill="#8C8C8C">Original behavior retested</text>
 
     <rect x="830" y="170" width="330" height="165" rx="18" fill="none" stroke="#EFEFEF"/>
     <text x="860" y="215" font-size="42" font-weight="700" fill="#FFC000">3</text>
-    <text x="860" y="257" font-size="19" font-weight="700" fill="#EFEFEF">Deep Projects</text>
-    <text x="860" y="293" font-size="16" fill="#8C8C8C">Offense · DFIR · engineering</text>
+    <text x="860" y="257" font-size="19" font-weight="700" fill="#EFEFEF">Deep Case Studies</text>
+    <text x="860" y="293" font-size="16" fill="#8C8C8C">Offense · DFIR · validation</text>
 
     <rect x="1205" y="170" width="315" height="165" rx="18" fill="none" stroke="#EFEFEF"/>
-    <text x="1235" y="215" font-size="42" font-weight="700" fill="#FFC000">1</text>
-    <text x="1235" y="257" font-size="19" font-weight="700" fill="#EFEFEF">Mindset</text>
-    <text x="1235" y="293" font-size="16" fill="#8C8C8C">Evidence over assumptions</text>
+    <text x="1235" y="215" font-size="31" font-weight="700" fill="#FFC000">LOGS</text>
+    <text x="1235" y="257" font-size="19" font-weight="700" fill="#EFEFEF">+ PCAP + Artifacts</text>
+    <text x="1235" y="293" font-size="16" fill="#8C8C8C">Correlated evidence</text>
   </g>
 </svg>
