@@ -1,17 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
-  <rect width="1600" height="520" fill="#131313"/>
-  <rect x="18" y="18" width="1564" height="484" rx="38" fill="none" stroke="#EFEFEF" stroke-width="1.2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500">
+  <rect width="1600" height="500" fill="#131313"/>
+  <rect x="18" y="18" width="1564" height="464" rx="38" fill="none" stroke="#EFEFEF" stroke-width="1.2"/>
 
-  <text x="90" y="100" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="25" font-weight="700" fill="#FFC000">khaled@portfolio~$ whoami</text>
+  <text x="90" y="98" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="25" font-weight="700" fill="#FFC000">khaled@portfolio~$ whoami</text>
 
-  <text x="90" y="185" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="58" font-weight="700" fill="#EFEFEF">Khaled AlKailani</text>
-  <text x="90" y="235" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="25" fill="#B7B7B7">Cybersecurity · SOC · DFIR · Security Engineering</text>
+  <text x="90" y="182" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="58" font-weight="700" fill="#EFEFEF">Khaled AlKailani</text>
+  <text x="90" y="232" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="25" fill="#B7B7B7">Cybersecurity · Security Operations · DFIR · Security Engineering</text>
 
-  <line x1="90" y1="280" x2="1510" y2="280" stroke="#5A5A5A" stroke-width="1"/>
+  <line x1="90" y1="278" x2="1510" y2="278" stroke="#5A5A5A" stroke-width="1"/>
 
-  <text x="90" y="332" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="21" fill="#EFEFEF">I don't stop at finding the issue.</text>
-  <text x="90" y="370" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="21" fill="#EFEFEF">I investigate what happened, explain why it worked, fix the root cause,</text>
-  <text x="90" y="408" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="21" fill="#EFEFEF">and test the same attack again to prove the remediation.</text>
+  <text x="90" y="332" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="22" fill="#EFEFEF">Security work should be explainable, evidence-backed, and testable.</text>
+  <text x="90" y="374" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="20" fill="#B7B7B7">Attack paths · evidence correlation · root-cause analysis · remediation validation</text>
 
-  <text x="90" y="466" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="18" fill="#FFC000">Jordan · Open to SOC / Cybersecurity Engineering opportunities</text>
+  <text x="90" y="438" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="17" fill="#666666">portfolio built around inspectable work — not skill badges</text>
 </svg>
