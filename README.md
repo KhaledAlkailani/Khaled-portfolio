@@ -198,7 +198,7 @@ These distinctions look small, but they are where weak technical conclusions oft
 
 ---
 
-# Training
+# Training & Practical Experience
 
 ## Nashama Cyber 12
 
@@ -215,6 +215,39 @@ The training covered work across:
 `Vulnerability Assessment` ·
 `Web Security` ·
 `Security Hardening`
+
+---
+
+## CyberX — Cybersecurity Internship
+
+**Jun 2025 – Aug 2025 · King Hussein Business Park, Amman**
+
+Worked across cybersecurity research, governance, awareness, and practical security analysis.
+
+### Governance & Regulatory Work
+
+- Researched cybersecurity controls, policies, and regulatory requirements, including Saudi cybersecurity control frameworks and **NCA ECC-related material**.
+- Worked with security frameworks and standards including **ISO 27001, NIST CSF, CIS Controls, and NCA ECC**.
+- Contributed to policy, procedure, compliance, and security-documentation activities.
+
+### Security Awareness & Training Content
+
+Created and organized cybersecurity awareness and learning material covering topics such as:
+
+`Cybersecurity Risk Management` ·
+`Data & Information Protection` ·
+`Identity & Access Management` ·
+`Information Systems & Processing Facilities` ·
+`Mobile Device Security` ·
+`Third-Party Cybersecurity`
+
+The work involved translating technical and regulatory security concepts into structured material that could be understood by employees and non-specialist audiences.
+
+### Technical & Investigation Exposure
+
+- Researched digital forensics, cybercrime investigations, digital-evidence handling, preservation, and investigation procedures.
+- Used **Wireshark and Nmap** in practical network and security analysis exercises.
+- Organized technical findings and converted security concepts into clear documentation and learning material.
 
 ---
 
