@@ -107,8 +107,6 @@ The analysis correlates web, host, and filesystem evidence, then goes deeper int
 
 ---
 
----
-
 ## [Vulnerability Management Procedure](https://github.com/KhaledAlkailani/vulnerability-management-procedure)
 
 **GRC · Vulnerability Management · Risk Treatment · ISO/IEC 27001:2022**
@@ -147,6 +145,46 @@ Instead of publishing passwords or challenge answers, the repository reorganizes
 - Learning documentation that separates concepts from answers
 
 **Project:** [Open the repository →](https://github.com/KhaledAlkailani/bandit-linux-security-journey)
+
+---
+
+## [MD5 Collision Lab](https://github.com/KhaledAlkailani/md5-collision-lab)
+
+**Cryptography Fundamentals · Linux · C++ Build Troubleshooting · Binary Analysis**
+
+A hands-on FastColl experiment that turns the abstract concept of an MD5 collision into an independently verified result.
+
+The lab documents the full path from source compilation and dependency troubleshooting to collision generation and binary-level verification.
+
+**Signals in the work**
+- Diagnosing missing Boost dependencies and compatibility issues
+- Compiling a C++ security tool on Kali Linux
+- Generating two distinct files with the same MD5 digest
+- Verifying the result independently with `md5sum`, `cmp` / `diff`, `strings`, and `xxd`
+- Distinguishing collision resistance from unrelated concepts such as encryption or preimage recovery
+
+**Project:** [Open the repository →](https://github.com/KhaledAlkailani/md5-collision-lab)
+
+---
+
+## [Security+ SY0-701 — Learning Journey](https://github.com/KhaledAlkailani/security-plus-sy0-701-journey)
+
+**Security Fundamentals · Architecture · Operations · GRC · Scenario Reasoning**
+
+A structured study repository that turns Security+ preparation into inspectable cybersecurity learning rather than a collection of memorized definitions.
+
+The repository organizes the five SY0-701 domains into concept notes, technical comparisons, scenario-based reasoning, progress tracking, and a mistakes-review loop.
+
+**Signals in the work**
+- Structured coverage across all five Security+ domains
+- Comparisons such as IAM vs PAM, IDS vs IPS, and authentication vs authorization
+- Scenario reasoning for incident investigation, firewall troubleshooting, access control, and vulnerability management
+- Objective and learning-state tracking
+- Exam-integrity approach with no dumps or proprietary live-exam content
+
+**Project:** [Open the repository →](https://github.com/KhaledAlkailani/security-plus-sy0-701-journey)
+
+---
 
 # Working Method
 
